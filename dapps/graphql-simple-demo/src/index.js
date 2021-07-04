@@ -6,7 +6,7 @@ import client from '@origin/graphql'
 import Listings from './Listings'
 
 ReactDOM.render(
-  <ApolloProvider client={gql}>
+  <ApolloProvider client={client}>
     <Listings />
   </ApolloProvider>,
   document.getElementById('app')
